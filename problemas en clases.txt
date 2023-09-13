@@ -1,0 +1,10 @@
+LA respuesta del primer ejercicio es:primero hagarro a la gallina y le llevo a la otra orilla,
+despues me regreso y tomo la lechuga y vamos a la orilla,tomo de regreso a la gallina y vuelvo por la 
+por la lechuga y dejo la gallina y la lechuga la dejo al principio y vuelvo por ella al final.
+
+en el segundo problema:tomo un monje y un carniboro,dejo al carniboro y regreso con un solo monje,
+tomo un carnivoro y vamos a la derecha y dejo al monje y me regreso a la izquierda con un carniboro
+tomo a un monje y vamos ala derecha y se queda el monje,regreso y tomo aun carniboro y nos vamos a la derecha
+ y dejo al carniboro me regreso y tomo al monje y se bajan el monje y el carniboro
+
+ 
