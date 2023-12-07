@@ -143,32 +143,150 @@ Al analizar esta estrategia, observamos que se ha logrado el intercambio de las 
 
 En conclusión, abordar el problema de intercambio de alfiles en un tablero de ajedrez implica un enfoque estratégico y reflexivo. La solución propuesta se basa en una cuidadosa alternancia de movimientos entre alfiles blancos y negros, evitando en todo momento el ataque entre piezas opuestas. Con esta estrategia, hemos logrado el intercambio deseado con un mínimo de 8 movimientos. Este ejercicio no solo destaca la importancia de la planificación estratégica en el ajedrez, sino también la capacidad de resolver problemas de manera efectiva y eficiente.
 
+## Pratica 5
+### Conteo de Elementos (Islas) en una Imagen: Enfoque Iterativo y Recursivo
+
+### Introducción
+
+El problema planteado consiste en contar el número de elementos (islas) contenidos en una imagen, teniendo en cuenta que las islas están formadas por elementos del mismo color. Para abordar este desafío, se desarrollará un programa que utilice tanto un método iterativo como un enfoque recursivo para realizar el conteo. Este ensayo se centra en la estrategia de resolución de este problema, destacando las ventajas y consideraciones de cada método.
+
+### Descripción del Problema
+
+Antes de abordar la solución, es crucial entender la naturaleza del problema. La imagen se compone de áreas contiguas de píxeles del mismo color que forman las islas. El objetivo es contar el número total de islas presentes en la imagen.
+
+### Enfoque Iterativo
+
+### Estrategia General
+
+El método iterativo implica recorrer la imagen mediante bucles y estructuras de control, examinando cada píxel y explorando sus vecinos para identificar y contabilizar islas. Este enfoque es especialmente efectivo para imágenes de tamaño considerable.
+
+### Implementación
+
+1.  Inicialización de variables de conteo y estructuras de datos necesarias.
+2.  Iteración sobre cada píxel de la imagen.
+3.  Para cada píxel, se verifica si pertenece a una isla (mismo color).
+4.  Si el píxel es parte de una nueva isla, se inicia un proceso de exploración de vecinos para marcar todos los píxeles de esa isla y evitar contarla múltiples veces.
+5.  Se incrementa el contador de islas.
+
+### Ventajas y Desafíos
+
+El enfoque iterativo es eficiente y consume menos recursos en comparación con la recursividad para imágenes de gran tamaño. Sin embargo, su principal desafío radica en la necesidad de gestionar adecuadamente la exploración de vecinos y evitar ciclos infinitos.
+
+### Enfoque Recursivo
+
+### Estrategia General
+
+El método recursivo aprovecha la llamada recursiva para explorar y contar islas. Cada llamada recursiva se centra en un píxel, y la función se llama a sí misma para explorar los píxeles vecinos.
+
+### Implementación
+
+1.  Inicialización de variables y estructuras de datos necesarias.
+2.  Se define una función recursiva que toma un píxel como argumento.
+3.  La función verifica si el píxel es parte de una isla y marca ese píxel.
+4.  La función se llama a sí misma para explorar los píxeles vecinos.
+5.  Se incrementa el contador de islas después de que la llamada recursiva ha explorado completamente una isla.
+
+### Ventajas y Desafíos
+
+El enfoque recursivo proporciona una solución más elegante y fácil de entender. Sin embargo, puede enfrentar problemas de desbordamiento de pila para imágenes muy grandes debido a la profundidad de las llamadas recursivas.
+
+## Conclusión
+
+La resolución del problema de contar el número de elementos en una imagen mediante métodos iterativos y recursivos es esencial para comprender las ventajas y desventajas de cada enfoque. La elección entre iterativo y recursivo dependerá de la naturaleza de la imagen y de las limitaciones de recursos.
+
+Ambos enfoques son válidos y eficientes, pero su implementación dependerá de factores como el tamaño de la imagen, la complejidad del código y los recursos disponibles. En este ensayo, se ha proporcionado una visión general de ambas estrategias, destacando sus características y ofreciendo una perspectiva sobre cuándo y por qué elegir una sobre la otra.
 
 
 
+## Practica 6
+### Conteo de Elementos (Islas) Rojas en una Imagen: Ampliación de la Solución
 
+### Introducción
 
+Después de haber abordado el desafío inicial de contar el número de elementos (islas) en una imagen, la tarea ahora consiste en desarrollar un algoritmo que cuente específicamente el número de elementos que tienen el color rojo. Esta ampliación de la solución implica una adaptación del algoritmo original para considerar únicamente aquellos elementos que cumplen con el criterio de color establecido. En este ensayo, exploraremos la estrategia para implementar esta mejora en el algoritmo y las consideraciones adicionales que surgen al enfrentar este nuevo requisito.
 
+### Extensión del Algoritmo Original
 
+### Consideraciones Iniciales
 
+El algoritmo original para contar elementos en la imagen identificaba y contabilizaba islas basadas en la similitud de color entre píxeles contiguos. Para incorporar la condición de color rojo, se debe ajustar el algoritmo para que solo considere aquellos elementos que cumplen con esta condición específica.
 
+### Estrategia de Implementación
 
+1.  **Modificación del Algoritmo Original:** Ajustar el algoritmo para verificar no solo la similitud de color general, sino específicamente la presencia del color rojo en los píxeles.
+    
+2.  **Identificación de Píxeles Rojos:** Durante la exploración de la imagen, se debe verificar si un píxel es de color rojo antes de considerarlo como parte de una isla.
+    
+3.  **Conteo Específico:** Incrementar el contador solo cuando se encuentra un píxel rojo que forma parte de una isla.
+    
 
+### Implementación Iterativa
 
+El enfoque iterativo es particularmente efectivo en este caso, ya que permite recorrer la imagen píxel a píxel, aplicando la condición de color rojo y actualizando el contador según sea necesario. Este enfoque iterativo se beneficia de la simplicidad en la gestión de bucles y estructuras de control.
 
+### Implementación Recursiva
 
+El enfoque recursivo también es aplicable, ya que la lógica fundamental del algoritmo original puede ser adaptada para tener en cuenta el color rojo. Sin embargo, es crucial manejar cuidadosamente las llamadas recursivas para evitar ciclos infinitos y desbordamientos de pila.
 
+### Consideraciones Adicionales
 
+#### Eficiencia y Complejidad
 
+La adición de la condición de color rojo puede tener implicaciones en la eficiencia del algoritmo. La complejidad del nuevo algoritmo dependerá de factores como la frecuencia de ocurrencia del color rojo en la imagen y la distribución de las islas.
 
+#### Optimización de Recursos
 
+Para garantizar un rendimiento óptimo, se puede considerar la implementación de estrategias de optimización, como el uso de estructuras de datos eficientes para almacenar información sobre los píxeles visitados y el color de los elementos.
 
+### Conclusiones y Perspectivas Futuras
 
+La ampliación del algoritmo para contar elementos específicos, en este caso, aquellos de color rojo, presenta una oportunidad para mejorar la versatilidad y aplicabilidad del sistema. Este enfoque de desarrollo modular permite adaptar la solución a diferentes requisitos de color y abrir posibilidades para futuras extensiones.
 
+En conclusión, el proceso de ajustar el algoritmo original para cumplir con nuevos requisitos demuestra la flexibilidad y adaptabilidad de las soluciones de programación. La implementación de estrategias iterativas y recursivas permite a los desarrolladores abordar problemas específicos de manera eficiente y elegante.
 
+## Practica 7
 
+### Planteamiento Matemático y Programación del Problema de Josephus
 
+### Introducción
 
+El "Problema de Josephus" es un escenario clásico en la matemática y la informática que ha sobrevivido a lo largo del tiempo. Basado en un relato histórico, implica una estrategia para determinar en qué posición sentarse en un círculo de soldados, de manera que, siguiendo un patrón de eliminación, uno sea el último sobreviviente. En este ensayo, plantearemos una solución matemática y la programaremos para encontrar la posición en la que Josephus debería sentarse.
 
+## Planteamiento Matemático
+
+El problema se puede abordar de manera matemática definiendo una fórmula que calcule la posición ganadora en función del número total de soldados. Para ello, consideremos el siguiente razonamiento:
+
+ -  **Caso Base (n=1):** Cuando hay solo un soldado, la única posición posible es la 1, ya que no hay elección.
+    
+ -  **Caso Recursivo (n>1):** Supongamos que conocemos la posición ganadora para (n-1) soldados. La estrategia de eliminación implica contar a lo largo del círculo y saltar cada k soldados hasta eliminar a todos. La nueva posición ganadora con n soldados se puede expresar como:
+ - f(n,k)=(f(n−1,k)+k)modn+1     
+ - donde f ( n − 1 , k ) f(n−1,k) es la posición ganadora con (n-1) soldados.
+
+###  Implementación en Python
+
+Ahora, traduzcamos esta fórmula en un programa Python:
+
+ def josephus(n, k):
+    if n == 1:
+        return 1
+    else:
+        return (josephus(n-1, k) + k - 1) % n + 1
+
+Ejemplo con 41 soldados
+numero_soldados = 41
+paso_salto = 2
+posicion_ganadora = josephus(numero_soldados, paso_salto)
+
+print(f"Josephus debe sentarse en la posición {posicion_ganadora}.")
+
+#### HeadingEsta implementación utiliza una función recursiva que sigue la fórmula previamente establecida.
+
+### Estrategia de Solución General
+
+El patrón observado en el problema de Josephus sugiere que, independientemente del número total de soldados, la posición ganadora está determinada por la fórmula dada. Esta estrategia generaliza la solución y permite encontrar la posición ganadora sin tener que recorrer todos los pasos intermedios.
+
+### Conclusiones
+
+El "Problema de Josephus" proporciona un fascinante vistazo a la combinación de historia, matemáticas y programación. La estrategia recursiva y la formulación matemática permiten una solución elegante y eficiente, lo que demuestra cómo conceptos teóricos y algoritmos pueden converger en problemas prácticos.
 
 
