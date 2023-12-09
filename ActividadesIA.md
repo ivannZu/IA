@@ -31,35 +31,44 @@ Practica 4 ______________________________________________________________4
 Practica 5 ______________________________________________________________5
 Practica 6 ______________________________________________________________6
 Practica 7 ______________________________________________________________7
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
 
-## practica 1
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+
+
+## Practica 1
+
+
+Título: Reflexiones en la Era Digital: Un Análisis del Documental sobre Inteligencia Artificial
+Introducción
+En un mundo cada vez más interconectado y tecnológicamente avanzado, la Inteligencia Artificial (IA) se ha convertido en un tema central en el discurso contemporáneo. Esta tecnología, que una vez perteneció al reino de la ciencia ficción, ahora es una realidad palpable que influye en múltiples aspectos de nuestras vidas. El documental [Nombre del Documental], dirigido por [Nombre del Director] y lanzado en [Año], ofrece una exploración profunda y provocadora de este fenómeno. A través de entrevistas, estudios de caso y una narrativa visual envolvente, el documental no solo educa a su audiencia sobre los fundamentos de la IA, sino que también plantea preguntas cruciales sobre su impacto en la sociedad, la ética y el futuro de la humanidad.
+
+La relevancia de este documental radica en su capacidad para desmitificar y contextualizar un tema tan complejo y a menudo malinterpretado como es la Inteligencia Artificial. Al adentrarse en la historia de la IA, sus aplicaciones actuales y sus posibles trayectorias futuras, el documental se convierte en una herramienta esencial para entender cómo esta tecnología está remodelando nuestro mundo. Este ensayo se propone analizar [Nombre del Documental], examinando no solo su contenido y mensaje, sino también reflexionando sobre las implicaciones más amplias de la IA en nuestra sociedad. Se abordarán tanto los aspectos técnicos y científicos presentados en el documental, como las cuestiones éticas y sociales que emergen en esta era de rápidos avances tecnológicos. A través de este análisis, el ensayo buscará ofrecer una perspectiva equilibrada y crítica, enfatizando la importancia de un diálogo informado y reflexivo sobre la Inteligencia Artificial y su papel en el futuro de la humanidad.
+Desarrollo
+Historia y Evolución de la IA
+Este segmento del ensayo se sumerge en la cronología de la Inteligencia Artificial, desde sus conceptos más primitivos hasta las sofisticadas aplicaciones de hoy. Se explora cómo visionarios y científicos de diversas épocas han contribuido a la evolución de la IA. Se destaca, por ejemplo, el trabajo de Alan Turing y su famoso test, la revolución de las redes neuronales, y los avances recientes en aprendizaje profundo y automatización. El documental proporciona una valiosa perspectiva histórica, que se analizará para entender cómo se ha transformado la percepción y aplicación de la IA a lo largo del tiempo.
+
+Análisis del Documental
+Esta sección se centra en desglosar los temas y narrativas presentados en el documental. Se examina cómo el director elige presentar la IA, tanto en términos de sus beneficios potenciales como de los desafíos éticos y morales que plantea. Se discute cómo el documental aborda temas como la automatización laboral, la privacidad de datos, y la inteligencia artificial en contextos militares y médicos. Además, se analiza el estilo narrativo y visual del documental, considerando cómo estos elementos contribuyen a la comprensión del espectador sobre la IA.
+
+Impacto Social y Ético de la IA
+En esta parte, el ensayo explora cómo el documental aborda las implicaciones de la IA en la sociedad. Se consideran tanto los aspectos positivos, como la optimización de procesos y avances médicos, como los negativos, incluyendo la pérdida de empleos y los dilemas éticos relacionados con la autonomía de las máquinas. Se discute cómo la IA está reformulando las normas sociales y qué tipo de medidas regulatorias o éticas podrían ser necesarias para manejar su creciente influencia.
+
+Casos de Estudio y Ejemplos
+Aquí, se analizan ejemplos concretos y estudios de caso presentados en el documental. Se exploran aplicaciones específicas de la IA que el documental resalta, como la IA en la salud, el transporte, o la industria del entretenimiento. Además, se discuten historias individuales o de comunidades que han sido impactadas directamente por la IA, proporcionando un análisis más humano y tangible de la tecnología.
+
+Crítica y Perspectiva Personal
+Finalmente, se ofrece una crítica del documental en términos de su precisión, imparcialidad y calidad de producción. Se evalúa si el documental logra su objetivo de informar y provocar reflexión en su audiencia. Además, se incluye una reflexión personal, donde se expresan opiniones propias sobre los temas tratados en el documental, y cómo estos afectan o influencian la visión del autor sobre la Inteligencia Artificial.
+
+Conclusión
+
+En la conclusión de este ensayo, se recapitulan los aspectos más destacados y las ideas clave analizadas a lo largo del texto, enfatizando cómo el documental [Nombre del Documental] ha proporcionado una visión integral y multifacética de la Inteligencia Artificial.
+
+El documental ha demostrado ser una herramienta valiosa no solo para entender los aspectos técnicos y científicos de la IA, sino también para apreciar sus implicaciones sociales, éticas y humanas. Desde la exploración de su evolución histórica hasta el análisis de sus aplicaciones actuales y potenciales, el documental ha abierto una ventana a un tema de vital importancia en el mundo moderno.
+
+Una de las conclusiones más significativas que se pueden extraer del documental es la necesidad de un diálogo continuo y reflexivo sobre la IA. Este diálogo debe ser inclusivo, teniendo en cuenta no solo las voces de los expertos en tecnología, sino también las de filósofos, sociólogos, legisladores y, fundamentalmente, de la ciudadanía en general. La IA no es solo un fenómeno tecnológico; es un fenómeno social y cultural que nos afecta a todos.
+
+Mirando hacia el futuro, es evidente que la IA seguirá siendo un tema de gran relevancia. El documental nos ha mostrado tanto las promesas como los desafíos de esta tecnología. Como sociedad, tenemos la responsabilidad de guiar el desarrollo de la IA de una manera que beneficie a la humanidad en su conjunto, prestando especial atención a las cuestiones éticas que inevitablemente surgen.
+
+
 .
 .
 ## practica 2
